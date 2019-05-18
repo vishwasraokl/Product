@@ -16,6 +16,11 @@ namespace ProductWebLayer.Controllers
         // GET: Product
         public ActionResult Index()
         {
+
+            //Log the error to file or console.
+            Console.WriteLine("Changed to write log ::git test:: Product");
+
+
             ProductDBContext context = new ProductDBContext();
 
             // For better decoupling I have used view model instead of directly using entity class in view.
