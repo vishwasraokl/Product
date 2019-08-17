@@ -18,7 +18,7 @@ namespace ProductWebLayer.Controllers
         {
 
             //Log the error to file or console.
-            Console.WriteLine("Changed to write log ::git test:: Product");
+            Console.WriteLine("Changed to write log ::git test:: Product - Sample Project");
 
 
             ProductDBContext context = new ProductDBContext();
